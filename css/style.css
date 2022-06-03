@@ -1,0 +1,143 @@
+* {margin: 0px; padding: 0px; border: 0px;}
+
+.maindiv {
+    margin-left: auto;
+    color: #000000;
+    width: 100%;
+    background-color: antiquewhite;
+    flex: 1 1 auto;
+}
+
+.headertitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+h2 {
+    padding: 6px;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.navbar{
+    background-color: #333;
+}
+
+.navbar-nav{
+    background-color: #333;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-item{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-right: 2px solid #bbb;
+    color: white;
+}
+
+.nav-item:last-child{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-right: none;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.textbody {
+    background-size: contain;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textcolumn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.par {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.parpad {
+    text-indent: 50px;
+    padding: 10px;
+  }
+
+.galimg{
+    max-width: 100%;
+    min-width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*Image styling*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+#wrap {
+    margin: 3em 8em;
+}
+.left {
+    float: left;
+    margin-right: 1.5em;
+    width: 30%;
+}
+.right {
+    float: right;
+    margin-left: 1em;
+}
+.pwrap {
+    margin-bottom: 2.5em;
+    overflow: hidden; /* this is what keep the <p> from wrapping */
+}
+.pwrap:last-child {
+    overflow: visible; /* this is an example of the browser default */
+}
+
+.columngallery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  float: left;
+  padding: 5px;
+}
+/* Clear floats after image containers */
+.row::after {
+  width: 30%;
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Mad Ramblings</title>
+
+    <!--?Logo and custom CSS file-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" href="../img/logo.png">
+
+    <!--TODO:remember to not just copy paste this when you decide to possibly add something from bootstrap into your actual site sam.-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<div class="maindiv">
+    <div class="container-fluid">
+        <header>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm headertitle"><b>Sam's Mad Ramblings</b></div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+
+            <!--collapsebutton-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!--?Navbar UL and LI-->
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rmb/rmb.html">Rambles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pics.html">Pics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./poll.html">Poll</a>
+                    </li>
+
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="textbody">
+        <div class="textcolumn">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h3 style="padding: 10px;">This isn't a question of what you want to see less of, I write about what
+                        I want after all, but what do you want to see me
+                        writing more about?
+                    </h3>
+                    <p class="parpad">disclaimer: not functional yet.</p>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form>
+                            <label for="name" class="form-label">Your name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="name">
+
+                            <label for="email" class="form-label">Email for receiving a reply:</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="youremail@emailservice.com">
+
+                            <label for="phone" class="form-label">Phone number for scamm callers:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="xxxx-xxxx">
+
+                            <label for="textbox" class="form-label">Your thoughts go here:</label>
+                            <textarea class="form-control" id="textbox" placeholder="blablabla"></textarea>
+
+                            <br><br>
+
+                            <h4 style="padding: 10px;">Now this is unrelated, but I'm curious.</h4>
+                            <br>
+
+                            <label for="OSP" class="form-label">What OS do you use primarily?</label>
+                            <select class="form-select" id="OSP">
+                                <option value="LN">Linux</option>
+                                <option value="MC">MacOS</option>
+                                <option value="WN" selected>Windows</option>
+                            </select>
+
+                            <h5>Which ones have you actually used?</h5>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="LNU">
+                                <label class="form-check-label" for="LNU">
+                                    Linux
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="MCU">
+                                <label class="form-check-label" for="MCU">
+                                    MacOS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="WNU" checked>
+                                <label class="form-check-label" for="WNU">
+                                    Windows
+                                </label>
+                            </div>
+                            <br>
+                            <div class="mb-4 text-center">
+                                <button type="submit" class="btn btn-secondary">submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+
+            <!--collapsebutton-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu2">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a href="https://twitter.com/SamsMadRambles" class="nav-link">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011" class="nav-link">My Books
+                            (soon™️)</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</div>
+
+
+</html>
